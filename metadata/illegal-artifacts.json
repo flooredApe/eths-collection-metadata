@@ -1,0 +1,297 @@
+{
+  "name": "Illegal Artifacts",
+  "logo_image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAzCAIAAAC1w6d9AAAAB3RJTUUH5wYaBSM2AKnj0gAAABd0RVh0U29mdHdhcmUAR0xEUE5HIHZlciAzLjRxhaThAAAACHRwTkdHTEQzAAAAAEqAKR8AAAAEZ0FNQQAAsY8L/GEFAAAABmJLR0QA/wD/AP+gvaeTAAACP0lEQVR4nN2YXW7CMAyAOQovUGhBjOe9c5H9MaRpHGjH7JCQCp2nTK3nJLYTElYWRah1bOeLnZ+GUTvUMiLv9x8bXI3E1hGtsNBW8/kRyJy/IpnTA2klTWFkvp5EMjs8QfQZyXwSPCvEecKR8dnMLRHI7JFFSForxUTZZ+UlG065BTLN9pMkrRrPlKxFM9E3YTW/xEOE555Mv3DEjYrZ2PjNgsh7MiYvjL2G2/YcRuYcmYYjTl8c1a+YkQfSZL/6Ik3I7CZfNrDkFnaNoZWLyKbTHVOravsHZDwTqVciU3aMFWazbQSfTIadhgZjsXhw6mtsVWTGEcPEE2M+7DANWVfL8sXXxCSaBC8LmZGYqaOpoAlYNlwysu5B3wFW66zaVNkkBKvVe8RGYEzA1ukzhsy55vFz0zSMOW4lHrrJEEPmm7BNc2Lc+Sl7K+VS4MhgGeonrL7gZR5JhhdgDjL+bAjOZkKy+GwOl6yqnrKSGf/BZFCuQMaoCTttWT5nIgPPvFrA6WQKuZXYFw1RJ/25qexYRE9Mpg+bJmBpyFprlHDU+Lp3yu2jSdOpimy5fEy1CMAPeNNoqmNWJFihQX60dyc+C9/fhnf79foNfnk1/fC0ZOPxXoTTKICfxGTG9XxOv1s+D4e6rk/ncyeBZ5CAXLRNRgZlMnklgSHHs/OoNq9gG9RX8B0dOsB8x+PR9A2f+WW5MxcFLDdMoVgxZD1cwU2sn8gVkViRZJjPd/EEeTTTpWSYz1kv9PxP/9nLWr4AlVxFvuqguPIAAAAASUVORK5CYII=",
+  "banner_image": null,
+  "total_supply": 50,
+  "slug": "illegal-artifacts",
+  "description": "How Illegal are you? limited Genesis collection of 25 artifacts, and their 25 animated iterations which are airdropped to the initial collectors - First 1/1 collection to begin ethscribing",
+  "background_color": "#ff0000",
+  "collection_items": [
+    {
+      "id": "0x621818296be22545271abffb47b056b4749f170a116a259be4760693c7ae56ba",
+      "index": 0,
+      "sha": "d254767fc5af53d75e1f05521f45dd12cb2b38f7763474b79e991f6072bc844e",
+      "name": "Illegal Artifact #0",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "Illegal Artifact",
+          "value": "Glitched Artifact"
+        }
+      ]
+    },
+    {
+      "id": "0x032c62678cadeb8fc6b1128fa3075ba668b4656c4e1472366d330174dc50d6de",
+      "index": 1,
+      "sha": "b8cc7f20056357aac1129aee84915a6fa70fa9bb85e4d076b7f20b6bffc3efdd",
+      "name": "Illegal Artifact #1",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "Illegal Artifact",
+          "value": "Static Artifact"
+        }
+      ]
+    },
+    {
+      "id": "0x38a097eaa2ba3666680424603574ff051fb969025aa75ab8294217a8c72b908c",
+      "index": 2,
+      "sha": "73bda8fa5273f7c146e19a9045359511e3a561f6ee55f231e08d840643eaa37f",
+      "name": "Illegal Artifact #2",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "Illegal Artifact",
+          "value": "Static Artifact"
+        }
+      ]
+    },
+    {
+      "id": "0x8e3422c2b5937477a8cfb6bda805f115d6a636cfd2c400360ef896fff02ac2f1",
+      "index": 3,
+      "sha": "5b6d31360239fb784f352d781ace33d88cf69d5139ae3f09400603d2b4a60db3",
+      "name": "Illegal Artifact #3",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "Illegal Artifact",
+          "value": "Static Artifact"
+        }
+      ]
+    },
+    {
+      "id": "0x875d3274d7171fe42d46987fa133c099c1cae032e43d02155e273fb6968a2c46",
+      "index": 4,
+      "sha": "1a7a71f360701a4cb271303a9a878d75d840171ea5fe08d677527eaee38fd0b8",
+      "name": "Illegal Artifact #4",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "Illegal Artifact",
+          "value": "Static Artifact"
+        }
+      ]
+    },
+    {
+      "id": "0x9ab0918e101773be040a886fb43131e51a4b897f5ce389fec4fcaf0dc2474ac2",
+      "index": 5,
+      "sha": "b77674a341a3bbe45679e2206b789fb3e2261f12d5cca04ecca0c3f4b1d5e784",
+      "name": "Illegal Artifact #5",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "Illegal Artifact",
+          "value": "Static Artifact"
+        }
+      ]
+    },
+    {
+      "id": "0x5f3678f556fc009a2d14d5acb4c054753d4199b4b0faa345d374488f57048eff",
+      "index": 6,
+      "sha": "a41dc369ff41670388aec700bc5d2ac4b305a94ea43503c975f7eb839319fcbe",
+      "name": "Illegal Artifact #6",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "Illegal Artifact",
+          "value": "Static Artifact"
+        }
+      ]
+    },
+    {
+      "id": "0xca921edddf6c5e25cb57c50374195dad5b2f4ee71f1dbebca89d58b383d6d70a",
+      "index": 7,
+      "sha": "8d9734ca41a1a5973cb86d226d23d1570b437a83b0a454e98ac972f962057d82",
+      "name": "Illegal Artifact #7",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "Illegal Artifact",
+          "value": "Static Artifact"
+        }
+      ]
+    },
+    {
+      "id": "0xf9bc5d56637de39b6f92b442c649f4b4e40729e277e69f0cce2529c5fdb64807",
+      "index": 8,
+      "sha": "376e27f7e5be9916c61b5fbea47873733e68b270704882a67cabbcb31fa812a9",
+      "name": "Illegal Artifact #8",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "Illegal Artifact",
+          "value": "Static Artifact"
+        }
+      ]
+    },
+    {
+      "id": "0x1e8a0b13c4a64e9db88afdf28805caeb7d3e54fc093a496f6185fe19ce648f90",
+      "index": 9,
+      "sha": "1606757f91816461b5ea850a24f4dd9714fc1ec64ced8b6b0e8f09f883f3562c",
+      "name": "Illegal Artifact #9",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "Illegal Artifact",
+          "value": "Static Artifact"
+        }
+      ]
+    },
+    {
+      "id": "0x2ace83f1f708e36c1395de6dbcb64d1b7d2a5aabc87abb5ba9bbb2ad2ba5f411",
+      "index": 10,
+      "sha": "4a25cd86f42b397759c2e02f260fa86142dc51fca05208789109ad08d952712b",
+      "name": "Illegal Artifact #10",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "Illegal Artifact",
+          "value": "Static Artifact"
+        }
+      ]
+    },
+    {
+      "id": "0xb20543fef05ba29c17a735d074920c4e401a30e17882b452de1add956e7ba51e",
+      "index": 11,
+      "sha": "ffc6b175ca4d3c2948f297e2dcbcee0228f93f44362b9e617dd4547f91115130",
+      "name": "Illegal Artifact #11",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "Illegal Artifact",
+          "value": "Static Artifact"
+        }
+      ]
+    },
+    {
+      "id": "0x236fea5b92a7f6baba5672a23fc7b65c870eb292578dc8ccedbf1aec9641edc5",
+      "index": 12,
+      "sha": "cb0a8fb1bff5957e0120c9718ca87924358545dad0d6854e97abf647d128f3f4",
+      "name": "Illegal Artifact #12",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "Illegal Artifact",
+          "value": "Static Artifact"
+        }
+      ]
+    },
+    {
+      "id": "0x788694093f615aa76de9a7d4d91ee0a93bb3527ef43bf5629f2ce95f609b18ff",
+      "index": 13,
+      "sha": "07e923046fc83775c21651fc28fcbe4d82fdaab989faa35a09d5e1b9444dcd9e",
+      "name": "Illegal Artifact #13",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "Illegal Artifact",
+          "value": "Static Artifact"
+        }
+      ]
+    },
+    {
+      "id": "0xc40cce3ba75d3ce131238d3b27e995bd114d2ff6fd212b2cb9ed290985f081bd",
+      "index": 14,
+      "sha": "424468515ed298305c5f01a8d5e805e9b4ce277f0cd13d290b2538dd119cea80",
+      "name": "Illegal Artifact #14",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "Illegal Artifact",
+          "value": "Static Artifact"
+        }
+      ]
+    },
+    {
+      "id": "0x7a2e6a427b2da5c47823fc2227323dfb00e301a36e464e90ce38460cbdfa7380",
+      "index": 15,
+      "sha": "6b9bade9ff12e1c776b0f8f357273afead7be9b10e10f9f7e7d842ceee47ab10",
+      "name": "Illegal Artifact #15",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "Illegal Artifact",
+          "value": "Static Artifact"
+        }
+      ]
+    },
+    {
+      "id": "0xb157b8abd3c6f0644ad8b0070db0b399f83988427378aae6040e7753f0aa04b4",
+      "index": 16,
+      "sha": "87325fbe5831b2c0153d12f1ca404ada3e56c060b2ea80dbfec93ac6566a9d07",
+      "name": "Illegal Artifact #16",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "Illegal Artifact",
+          "value": "Static Artifact"
+        }
+      ]
+    },
+    {
+      "id": "0xab17185af59d6124233b86dabcbe948fd3ce51361bcd6aeaaeb34d1406d1f271",
+      "index": 17,
+      "sha": "4ae41eb1d9da812cdda5ff5e4321a2aab9332aaedabcbe21a86039c42353ccbb",
+      "name": "Illegal Artifact #17",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "Illegal Artifact",
+          "value": "Static Artifact"
+        }
+      ]
+    },
+    {
+      "id": "0x8151dcf5cd77b4673f4604cf5d03257a34e953b365fa2af38a244cf9156155f1",
+      "index": 18,
+      "sha": "b5f9f8d01c46f60a92aa68f524b18b90c124551f03f5fd57a1d31cd99b4b5fad",
+      "name": "Illegal Artifact #18",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "Illegal Artifact",
+          "value": "Static Artifact"
+        }
+      ]
+    },
+    {
+      "id": "0x91f0117c3ddc221b94a6f39bdf625f7f0c4572bc12170efa9c71960c714be6eb",
+      "index": 19,
+      "sha": "c0a0d33af59f8641bfc7bb5965073339f1cf03449c7ac6a2b46b4acbd55f1d45",
+      "name": "Illegal Artifact #19",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "Illegal Artifact",
+          "value": "Static Artifact"
+        }
+      ]
+    },
+    {
+      "id": "0x8d9097b99b649e7ed23f547561cda0ce1c6db9f168c6bf99b060506698dc8395",
+      "index": 26,
+      "sha": "1680c595c577b4c90e35b0fb847109b3bfd21ef54619100451d20ea048133f71",
+      "name": "Illegal Artifact #26",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "Illegal Artifact",
+          "value": "Glitched Artifact"
+        }
+      ]
+    },
+    {
+      "id": "0x2c27cd16d287392e562d863bd7ce573e35f3c70d86043318d6db44c7e11e9556",
+      "index": 27,
+      "sha": "7064ac4ad3889e7db7be2e4c56f4cf0ba6fea971026a4cd98bedb3cccb18fbbb",
+      "name": "Illegal Artifact #27",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "Illegal Artifact",
+          "value": "Glitched Artifact"
+        }
+      ]
+    }
+  ]
+}
