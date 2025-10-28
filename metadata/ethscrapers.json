@@ -1,0 +1,473 @@
+{
+  "name": "Ethscrapers",
+  "logo_image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAwIDEwMDAiIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMCwgMCwgMCk7IHdpZHRoOiAxMDAwcHg7IGhlaWdodDogMTAwMHB4OyI+PHN2ZyB2aWV3Qm94PSIwIDAgMTAwMCAxMDAwIiBjbGFzcz0idW5kZWZpbmVkIiBzdHlsZT0id2lkdGg6IDEwMDBweDsgaGVpZ2h0OiAxMDAwcHg7Ij4KICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJiYWNrZ3JvdW5kR3JhZGllbnQiIGdyYWRpZW50VHJhbnNmb3JtPSJyb3RhdGUoOTApIj4KICAgICAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LCAyNTUsIDI1NSwgMSkiLz4KICAgICAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0icmdiYSgxLCAxLCAxLCAxKSIvPgoKICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICA8L2RlZnM+CiAgICA8cG9seWdvbiBwb2ludHM9Ijg1MS41LDk3MS44MDk1MjM4MDk1MjM5IDg1MS41LDY4NS43MTQyODU3MTQyODU3IDg4My41LDY5MC4yODU3MTQyODU3MTQyIDg4My41LDk3Ni4zODA5NTIzODA5NTI0IiBmaWxsPSJ1cmwoJyNiYWNrZ3JvdW5kR3JhZGllbnQnKSIvPjxwb2x5Z29uIHBvaW50cz0iODgzLjUsNjkwLjI4NTcxNDI4NTcxNDIgODUxLjUsNjg1LjcxNDI4NTcxNDI4NTcgODgzLjUsNjg1LjcxNDI4NTcxNDI4NTcgOTE1LjUsNjkwLjI4NTcxNDI4NTcxNDIiIGZpbGw9InJnYmEoMjA5LCAyMDksIDIwOSwgMSkiLz48cG9seWdvbiBwb2ludHM9Ijg4My41LDk4MC45NTIzODA5NTIzODEgODgzLjUsNjkwLjI4NTcxNDI4NTcxNDIgOTE1LjUsNjkwLjI4NTcxNDI4NTcxNDIgOTE1LjUsOTgwLjk1MjM4MDk1MjM4MSIgZmlsbD0iIzAwMDAwMCIvPjxwb2x5Z29uIHBvaW50cz0iODEzLjQwNDc2MTkwNDc2MTksOTcxLjgwOTUyMzgwOTUyMzkgODEzLjQwNDc2MTkwNDc2MTksNTMzLjMzMzMzMzMzMzMzMzQgODQ1LjQwNDc2MTkwNDc2MTksNTM3LjkwNDc2MTkwNDc2MTkgODQ1LjQwNDc2MTkwNDc2MTksOTc2LjM4MDk1MjM4MDk1MjQiIGZpbGw9InVybCgnI2JhY2tncm91bmRHcmFkaWVudCcpIi8+PHBvbHlnb24gcG9pbnRzPSI4NDUuNDA0NzYxOTA0NzYxOSw1MzcuOTA0NzYxOTA0NzYxOSA4MTMuNDA0NzYxOTA0NzYxOSw1MzMuMzMzMzMzMzMzMzMzNCA4NDUuNDA0NzYxOTA0NzYxOSw1MzMuMzMzMzMzMzMzMzMzNCA4NzcuNDA0NzYxOTA0NzYxOSw1MzcuOTA0NzYxOTA0NzYxOSIgZmlsbD0icmdiYSgyMjcsIDIyNywgMjI3LCAxKSIvPjxwb2x5Z29uIHBvaW50cz0iODQ1LjQwNDc2MTkwNDc2MTksOTgwLjk1MjM4MDk1MjM4MSA4NDUuNDA0NzYxOTA0NzYxOSw1MzcuOTA0NzYxOTA0NzYxOSA4NzcuNDA0NzYxOTA0NzYxOSw1MzcuOTA0NzYxOTA0NzYxOSA4NzcuNDA0NzYxOTA0NzYxOSw5ODAuOTUyMzgwOTUyMzgxIiBmaWxsPSIjMDAwMDAwIi8+PHBvbHlnb24gcG9pbnRzPSI3NzUuMzA5NTIzODA5NTIzOSw5NzEuODA5NTIzODA5NTIzOSA3NzUuMzA5NTIzODA5NTIzOSw0MTkuMDQ3NjE5MDQ3NjE5MDQgODA3LjMwOTUyMzgwOTUyMzksNDIzLjYxOTA0NzYxOTA0NzYgODA3LjMwOTUyMzgwOTUyMzksOTc2LjM4MDk1MjM4MDk1MjQiIGZpbGw9InVybCgnI2JhY2tncm91bmRHcmFkaWVudCcpIi8+PHBvbHlnb24gcG9pbnRzPSI4MDcuMzA5NTIzODA5NTIzOSw0MjMuNjE5MDQ3NjE5MDQ3NiA3NzUuMzA5NTIzODA5NTIzOSw0MTkuMDQ3NjE5MDQ3NjE5MDQgODA3LjMwOTUyMzgwOTUyMzksNDE5LjA0NzYxOTA0NzYxOTA0IDgzOS4zMDk1MjM4MDk1MjM5LDQyMy42MTkwNDc2MTkwNDc2IiBmaWxsPSJyZ2JhKDIzOCwgMjM4LCAyMzgsIDEpIi8+PHBvbHlnb24gcG9pbnRzPSI4MDcuMzA5NTIzODA5NTIzOSw5ODAuOTUyMzgwOTUyMzgxIDgwNy4zMDk1MjM4MDk1MjM5LDQyMy42MTkwNDc2MTkwNDc2IDgzOS4zMDk1MjM4MDk1MjM5LDQyMy42MTkwNDc2MTkwNDc2IDgzOS4zMDk1MjM4MDk1MjM5LDk4MC45NTIzODA5NTIzODEiIGZpbGw9IiMwMDAwMDAiLz48cG9seWdvbiBwb2ludHM9IjczNy4yMTQyODU3MTQyODU4LDk3MS44MDk1MjM4MDk1MjM5IDczNy4yMTQyODU3MTQyODU4LDI2Ni42NjY2NjY2NjY2NjY3IDc2OS4yMTQyODU3MTQyODU4LDI3MS4yMzgwOTUyMzgwOTUyNCA3NjkuMjE0Mjg1NzE0Mjg1OCw5NzYuMzgwOTUyMzgwOTUyNCIgZmlsbD0idXJsKCcjYmFja2dyb3VuZEdyYWRpZW50JykiLz48cG9seWdvbiBwb2ludHM9Ijc2OS4yMTQyODU3MTQyODU4LDI3MS4yMzgwOTUyMzgwOTUyNCA3MzcuMjE0Mjg1NzE0Mjg1OCwyNjYuNjY2NjY2NjY2NjY2NyA3NjkuMjE0Mjg1NzE0Mjg1OCwyNjYuNjY2NjY2NjY2NjY2NyA4MDEuMjE0Mjg1NzE0Mjg1OCwyNzEuMjM4MDk1MjM4MDk1MjQiIGZpbGw9InJnYmEoMjU1LCAyNTUsIDI1NSwgMSkiLz48cG9seWdvbiBwb2ludHM9Ijc2OS4yMTQyODU3MTQyODU4LDk4MC45NTIzODA5NTIzODEgNzY5LjIxNDI4NTcxNDI4NTgsMjcxLjIzODA5NTIzODA5NTI0IDgwMS4yMTQyODU3MTQyODU4LDI3MS4yMzgwOTUyMzgwOTUyNCA4MDEuMjE0Mjg1NzE0Mjg1OCw5ODAuOTUyMzgwOTUyMzgxIiBmaWxsPSIjMDAwMDAwIi8+PHBvbHlnb24gcG9pbnRzPSI2OTkuMTE5MDQ3NjE5MDQ3Nyw5NzEuODA5NTIzODA5NTIzOSA2OTkuMTE5MDQ3NjE5MDQ3NywzMDQuNzYxOTA0NzYxOTA0NzYgNzMxLjExOTA0NzYxOTA0NzcsMzA5LjMzMzMzMzMzMzMzMzMgNzMxLjExOTA0NzYxOTA0NzcsOTc2LjM4MDk1MjM4MDk1MjQiIGZpbGw9InVybCgnI2JhY2tncm91bmRHcmFkaWVudCcpIi8+PHBvbHlnb24gcG9pbnRzPSI3MzEuMTE5MDQ3NjE5MDQ3NywzMDkuMzMzMzMzMzMzMzMzMyA2OTkuMTE5MDQ3NjE5MDQ3NywzMDQuNzYxOTA0NzYxOTA0NzYgNzMxLjExOTA0NzYxOTA0NzcsMzA0Ljc2MTkwNDc2MTkwNDc2IDc2My4xMTkwNDc2MTkwNDc3LDMwOS4zMzMzMzMzMzMzMzMzIiBmaWxsPSJyZ2JhKDI0OSwgMjQ5LCAyNDksIDEpIi8+PHBvbHlnb24gcG9pbnRzPSI3MzEuMTE5MDQ3NjE5MDQ3Nyw5ODAuOTUyMzgwOTUyMzgxIDczMS4xMTkwNDc2MTkwNDc3LDMwOS4zMzMzMzMzMzMzMzMzIDc2My4xMTkwNDc2MTkwNDc3LDMwOS4zMzMzMzMzMzMzMzMzIDc2My4xMTkwNDc2MTkwNDc3LDk4MC45NTIzODA5NTIzODEiIGZpbGw9IiMwMDAwMDAiLz48cG9seWdvbiBwb2ludHM9IjY2MS4wMjM4MDk1MjM4MDk2LDk3MS44MDk1MjM4MDk1MjM5IDY2MS4wMjM4MDk1MjM4MDk2LDQxOS4wNDc2MTkwNDc2MTkwNCA2OTMuMDIzODA5NTIzODA5Niw0MjMuNjE5MDQ3NjE5MDQ3NiA2OTMuMDIzODA5NTIzODA5Niw5NzYuMzgwOTUyMzgwOTUyNCIgZmlsbD0idXJsKCcjYmFja2dyb3VuZEdyYWRpZW50JykiLz48cG9seWdvbiBwb2ludHM9IjY5My4wMjM4MDk1MjM4MDk2LDQyMy42MTkwNDc2MTkwNDc2IDY2MS4wMjM4MDk1MjM4MDk2LDQxOS4wNDc2MTkwNDc2MTkwNCA2OTMuMDIzODA5NTIzODA5Niw0MTkuMDQ3NjE5MDQ3NjE5MDQgNzI1LjAyMzgwOTUyMzgwOTYsNDIzLjYxOTA0NzYxOTA0NzYiIGZpbGw9InJnYmEoMjM4LCAyMzgsIDIzOCwgMSkiLz48cG9seWdvbiBwb2ludHM9IjY5My4wMjM4MDk1MjM4MDk2LDk4MC45NTIzODA5NTIzODEgNjkzLjAyMzgwOTUyMzgwOTYsNDIzLjYxOTA0NzYxOTA0NzYgNzI1LjAyMzgwOTUyMzgwOTYsNDIzLjYxOTA0NzYxOTA0NzYgNzI1LjAyMzgwOTUyMzgwOTYsOTgwLjk1MjM4MDk1MjM4MSIgZmlsbD0iIzAwMDAwMCIvPjxwb2x5Z29uIHBvaW50cz0iNjIyLjkyODU3MTQyODU3MTYsOTcxLjgwOTUyMzgwOTUyMzkgNjIyLjkyODU3MTQyODU3MTYsNjQ3LjYxOTA0NzYxOTA0NzYgNjU0LjkyODU3MTQyODU3MTYsNjUyLjE5MDQ3NjE5MDQ3NjEgNjU0LjkyODU3MTQyODU3MTYsOTc2LjM4MDk1MjM4MDk1MjQiIGZpbGw9InVybCgnI2JhY2tncm91bmRHcmFkaWVudCcpIi8+PHBvbHlnb24gcG9pbnRzPSI2NTQuOTI4NTcxNDI4NTcxNiw2NTIuMTkwNDc2MTkwNDc2MSA2MjIuOTI4NTcxNDI4NTcxNiw2NDcuNjE5MDQ3NjE5MDQ3NiA2NTQuOTI4NTcxNDI4NTcxNiw2NDcuNjE5MDQ3NjE5MDQ3NiA2ODYuOTI4NTcxNDI4NTcxNiw2NTIuMTkwNDc2MTkwNDc2MSIgZmlsbD0icmdiYSgyMTIsIDIxMiwgMjEyLCAxKSIvPjxwb2x5Z29uIHBvaW50cz0iNjU0LjkyODU3MTQyODU3MTYsOTgwLjk1MjM4MDk1MjM4MSA2NTQuOTI4NTcxNDI4NTcxNiw2NTIuMTkwNDc2MTkwNDc2MSA2ODYuOTI4NTcxNDI4NTcxNiw2NTIuMTkwNDc2MTkwNDc2MSA2ODYuOTI4NTcxNDI4NTcxNiw5ODAuOTUyMzgwOTUyMzgxIiBmaWxsPSIjMDAwMDAwIi8+PHBvbHlnb24gcG9pbnRzPSI1ODQuODMzMzMzMzMzMzMzNSw5NzEuODA5NTIzODA5NTIzOSA1ODQuODMzMzMzMzMzMzMzNSw0NTcuMTQyODU3MTQyODU3MSA2MTYuODMzMzMzMzMzMzMzNSw0NjEuNzE0Mjg1NzE0Mjg1NjcgNjE2LjgzMzMzMzMzMzMzMzUsOTc2LjM4MDk1MjM4MDk1MjQiIGZpbGw9InVybCgnI2JhY2tncm91bmRHcmFkaWVudCcpIi8+PHBvbHlnb24gcG9pbnRzPSI2MTYuODMzMzMzMzMzMzMzNSw0NjEuNzE0Mjg1NzE0Mjg1NjcgNTg0LjgzMzMzMzMzMzMzMzUsNDU3LjE0Mjg1NzE0Mjg1NzEgNjE2LjgzMzMzMzMzMzMzMzUsNDU3LjE0Mjg1NzE0Mjg1NzEgNjQ4LjgzMzMzMzMzMzMzMzUsNDYxLjcxNDI4NTcxNDI4NTY3IiBmaWxsPSJyZ2JhKDIzNCwgMjM0LCAyMzQsIDEpIi8+PHBvbHlnb24gcG9pbnRzPSI2MTYuODMzMzMzMzMzMzMzNSw5ODAuOTUyMzgwOTUyMzgxIDYxNi44MzMzMzMzMzMzMzM1LDQ2MS43MTQyODU3MTQyODU2NyA2NDguODMzMzMzMzMzMzMzNSw0NjEuNzE0Mjg1NzE0Mjg1NjcgNjQ4LjgzMzMzMzMzMzMzMzUsOTgwLjk1MjM4MDk1MjM4MSIgZmlsbD0iIzAwMDAwMCIvPjxwb2x5Z29uIHBvaW50cz0iNTQ2LjczODA5NTIzODA5NTQsOTcxLjgwOTUyMzgwOTUyMzkgNTQ2LjczODA5NTIzODA5NTQsNTcxLjQyODU3MTQyODU3MTQgNTc4LjczODA5NTIzODA5NTQsNTc2IDU3OC43MzgwOTUyMzgwOTU0LDk3Ni4zODA5NTIzODA5NTI0IiBmaWxsPSJ1cmwoJyNiYWNrZ3JvdW5kR3JhZGllbnQnKSIvPjxwb2x5Z29uIHBvaW50cz0iNTc4LjczODA5NTIzODA5NTQsNTc2IDU0Ni43MzgwOTUyMzgwOTU0LDU3MS40Mjg1NzE0Mjg1NzE0IDU3OC43MzgwOTUyMzgwOTU0LDU3MS40Mjg1NzE0Mjg1NzE0IDYxMC43MzgwOTUyMzgwOTU0LDU3NiIgZmlsbD0icmdiYSgyMTksIDIxOSwgMjE5LCAxKSIvPjxwb2x5Z29uIHBvaW50cz0iNTc4LjczODA5NTIzODA5NTQsOTgwLjk1MjM4MDk1MjM4MSA1NzguNzM4MDk1MjM4MDk1NCw1NzYgNjEwLjczODA5NTIzODA5NTQsNTc2IDYxMC43MzgwOTUyMzgwOTU0LDk4MC45NTIzODA5NTIzODEiIGZpbGw9IiMwMDAwMDAiLz48cG9seWdvbiBwb2ludHM9IjUwOC42NDI4NTcxNDI4NTczNCw5NzEuODA5NTIzODA5NTIzOSA1MDguNjQyODU3MTQyODU3MzQsNzIzLjgwOTUyMzgwOTUyMzkgNTQwLjY0Mjg1NzE0Mjg1NzMsNzI4LjM4MDk1MjM4MDk1MjQgNTQwLjY0Mjg1NzE0Mjg1NzMsOTc2LjM4MDk1MjM4MDk1MjQiIGZpbGw9InVybCgnI2JhY2tncm91bmRHcmFkaWVudCcpIi8+PHBvbHlnb24gcG9pbnRzPSI1NDAuNjQyODU3MTQyODU3Myw3MjguMzgwOTUyMzgwOTUyNCA1MDguNjQyODU3MTQyODU3MzQsNzIzLjgwOTUyMzgwOTUyMzkgNTQwLjY0Mjg1NzE0Mjg1NzMsNzIzLjgwOTUyMzgwOTUyMzkgNTcyLjY0Mjg1NzE0Mjg1NzMsNzI4LjM4MDk1MjM4MDk1MjQiIGZpbGw9InJnYmEoMjA1LCAyMDUsIDIwNSwgMSkiLz48cG9seWdvbiBwb2ludHM9IjU0MC42NDI4NTcxNDI4NTczLDk4MC45NTIzODA5NTIzODEgNTQwLjY0Mjg1NzE0Mjg1NzMsNzI4LjM4MDk1MjM4MDk1MjQgNTcyLjY0Mjg1NzE0Mjg1NzMsNzI4LjM4MDk1MjM4MDk1MjQgNTcyLjY0Mjg1NzE0Mjg1NzMsOTgwLjk1MjM4MDk1MjM4MSIgZmlsbD0iIzAwMDAwMCIvPjxwb2x5Z29uIHBvaW50cz0iNDcwLjU0NzYxOTA0NzYxOTI2LDk3MS44MDk1MjM4MDk1MjM5IDQ3MC41NDc2MTkwNDc2MTkyNiw1NzEuNDI4NTcxNDI4NTcxNCA1MDIuNTQ3NjE5MDQ3NjE5MjYsNTc2IDUwMi41NDc2MTkwNDc2MTkyNiw5NzYuMzgwOTUyMzgwOTUyNCIgZmlsbD0idXJsKCcjYmFja2dyb3VuZEdyYWRpZW50JykiLz48cG9seWdvbiBwb2ludHM9IjUwMi41NDc2MTkwNDc2MTkyNiw1NzYgNDcwLjU0NzYxOTA0NzYxOTI2LDU3MS40Mjg1NzE0Mjg1NzE0IDUwMi41NDc2MTkwNDc2MTkyNiw1NzEuNDI4NTcxNDI4NTcxNCA1MzQuNTQ3NjE5MDQ3NjE5Myw1NzYiIGZpbGw9InJnYmEoMjE5LCAyMTksIDIxOSwgMSkiLz48cG9seWdvbiBwb2ludHM9IjUwMi41NDc2MTkwNDc2MTkyNiw5ODAuOTUyMzgwOTUyMzgxIDUwMi41NDc2MTkwNDc2MTkyNiw1NzYgNTM0LjU0NzYxOTA0NzYxOTMsNTc2IDUzNC41NDc2MTkwNDc2MTkzLDk4MC45NTIzODA5NTIzODEiIGZpbGw9IiMwMDAwMDAiLz48cG9seWdvbiBwb2ludHM9IjQzMi40NTIzODA5NTIzODEyLDk3MS44MDk1MjM4MDk1MjM5IDQzMi40NTIzODA5NTIzODEyLDU3MS40Mjg1NzE0Mjg1NzE0IDQ2NC40NTIzODA5NTIzODEyLDU3NiA0NjQuNDUyMzgwOTUyMzgxMiw5NzYuMzgwOTUyMzgwOTUyNCIgZmlsbD0idXJsKCcjYmFja2dyb3VuZEdyYWRpZW50JykiLz48cG9seWdvbiBwb2ludHM9IjQ2NC40NTIzODA5NTIzODEyLDU3NiA0MzIuNDUyMzgwOTUyMzgxMiw1NzEuNDI4NTcxNDI4NTcxNCA0NjQuNDUyMzgwOTUyMzgxMiw1NzEuNDI4NTcxNDI4NTcxNCA0OTYuNDUyMzgwOTUyMzgxMiw1NzYiIGZpbGw9InJnYmEoMjE5LCAyMTksIDIxOSwgMSkiLz48cG9seWdvbiBwb2ludHM9IjQ2NC40NTIzODA5NTIzODEyLDk4MC45NTIzODA5NTIzODEgNDY0LjQ1MjM4MDk1MjM4MTIsNTc2IDQ5Ni40NTIzODA5NTIzODEyLDU3NiA0OTYuNDUyMzgwOTUyMzgxMiw5ODAuOTUyMzgwOTUyMzgxIiBmaWxsPSIjMDAwMDAwIi8+PHBvbHlnb24gcG9pbnRzPSIzOTQuMzU3MTQyODU3MTQzMSw5NzEuODA5NTIzODA5NTIzOSAzOTQuMzU3MTQyODU3MTQzMSwxOTAuNDc2MTkwNDc2MTkwNDggNDI2LjM1NzE0Mjg1NzE0MzEsMTk1LjA0NzYxOTA0NzYxOTA3IDQyNi4zNTcxNDI4NTcxNDMxLDk3Ni4zODA5NTIzODA5NTI0IiBmaWxsPSJ1cmwoJyNiYWNrZ3JvdW5kR3JhZGllbnQnKSIvPjxwb2x5Z29uIHBvaW50cz0iNDI2LjM1NzE0Mjg1NzE0MzEsMTk1LjA0NzYxOTA0NzYxOTA3IDM5NC4zNTcxNDI4NTcxNDMxLDE5MC40NzYxOTA0NzYxOTA0OCA0MjYuMzU3MTQyODU3MTQzMSwxOTAuNDc2MTkwNDc2MTkwNDggNDU4LjM1NzE0Mjg1NzE0MzEsMTk1LjA0NzYxOTA0NzYxOTA3IiBmaWxsPSJyZ2JhKDI1NSwgMjU1LCAyNTUsIDEpIi8+PHBvbHlnb24gcG9pbnRzPSI0MjYuMzU3MTQyODU3MTQzMSw5ODAuOTUyMzgwOTUyMzgxIDQyNi4zNTcxNDI4NTcxNDMxLDE5NS4wNDc2MTkwNDc2MTkwNyA0NTguMzU3MTQyODU3MTQzMSwxOTUuMDQ3NjE5MDQ3NjE5MDcgNDU4LjM1NzE0Mjg1NzE0MzEsOTgwLjk1MjM4MDk1MjM4MSIgZmlsbD0iIzAwMDAwMCIvPjxwb2x5Z29uIHBvaW50cz0iMzU2LjI2MTkwNDc2MTkwNTA0LDk3MS44MDk1MjM4MDk1MjM5IDM1Ni4yNjE5MDQ3NjE5MDUwNCw2ODUuNzE0Mjg1NzE0Mjg1NyAzODguMjYxOTA0NzYxOTA1MDQsNjkwLjI4NTcxNDI4NTcxNDIgMzg4LjI2MTkwNDc2MTkwNTA0LDk3Ni4zODA5NTIzODA5NTI0IiBmaWxsPSJ1cmwoJyNiYWNrZ3JvdW5kR3JhZGllbnQnKSIvPjxwb2x5Z29uIHBvaW50cz0iMzg4LjI2MTkwNDc2MTkwNTA0LDY5MC4yODU3MTQyODU3MTQyIDM1Ni4yNjE5MDQ3NjE5MDUwNCw2ODUuNzE0Mjg1NzE0Mjg1NyAzODguMjYxOTA0NzYxOTA1MDQsNjg1LjcxNDI4NTcxNDI4NTcgNDIwLjI2MTkwNDc2MTkwNTA0LDY5MC4yODU3MTQyODU3MTQyIiBmaWxsPSJyZ2JhKDIwOSwgMjA5LCAyMDksIDEpIi8+PHBvbHlnb24gcG9pbnRzPSIzODguMjYxOTA0NzYxOTA1MDQsOTgwLjk1MjM4MDk1MjM4MSAzODguMjYxOTA0NzYxOTA1MDQsNjkwLjI4NTcxNDI4NTcxNDIgNDIwLjI2MTkwNDc2MTkwNTA0LDY5MC4yODU3MTQyODU3MTQyIDQyMC4yNjE5MDQ3NjE5MDUwNCw5ODAuOTUyMzgwOTUyMzgxIiBmaWxsPSIjMDAwMDAwIi8+PHBvbHlnb24gcG9pbnRzPSIzMTguMTY2NjY2NjY2NjY2OTcsOTcxLjgwOTUyMzgwOTUyMzkgMzE4LjE2NjY2NjY2NjY2Njk3LDYwOS41MjM4MDk1MjM4MDk1IDM1MC4xNjY2NjY2NjY2NjY5Nyw2MTQuMDk1MjM4MDk1MjM4MSAzNTAuMTY2NjY2NjY2NjY2OTcsOTc2LjM4MDk1MjM4MDk1MjQiIGZpbGw9InVybCgnI2JhY2tncm91bmRHcmFkaWVudCcpIi8+PHBvbHlnb24gcG9pbnRzPSIzNTAuMTY2NjY2NjY2NjY2OTcsNjE0LjA5NTIzODA5NTIzODEgMzE4LjE2NjY2NjY2NjY2Njk3LDYwOS41MjM4MDk1MjM4MDk1IDM1MC4xNjY2NjY2NjY2NjY5Nyw2MDkuNTIzODA5NTIzODA5NSAzODIuMTY2NjY2NjY2NjY2OTcsNjE0LjA5NTIzODA5NTIzODEiIGZpbGw9InJnYmEoMjE2LCAyMTYsIDIxNiwgMSkiLz48cG9seWdvbiBwb2ludHM9IjM1MC4xNjY2NjY2NjY2NjY5Nyw5ODAuOTUyMzgwOTUyMzgxIDM1MC4xNjY2NjY2NjY2NjY5Nyw2MTQuMDk1MjM4MDk1MjM4MSAzODIuMTY2NjY2NjY2NjY2OTcsNjE0LjA5NTIzODA5NTIzODEgMzgyLjE2NjY2NjY2NjY2Njk3LDk4MC45NTIzODA5NTIzODEiIGZpbGw9IiMwMDAwMDAiLz48cG9seWdvbiBwb2ludHM9IjI4MC4wNzE0Mjg1NzE0Mjg5LDk3MS44MDk1MjM4MDk1MjM5IDI4MC4wNzE0Mjg1NzE0Mjg5LDUzMy4zMzMzMzMzMzMzMzM0IDMxMi4wNzE0Mjg1NzE0Mjg5LDUzNy45MDQ3NjE5MDQ3NjE5IDMxMi4wNzE0Mjg1NzE0Mjg5LDk3Ni4zODA5NTIzODA5NTI0IiBmaWxsPSJ1cmwoJyNiYWNrZ3JvdW5kR3JhZGllbnQnKSIvPjxwb2x5Z29uIHBvaW50cz0iMzEyLjA3MTQyODU3MTQyODksNTM3LjkwNDc2MTkwNDc2MTkgMjgwLjA3MTQyODU3MTQyODksNTMzLjMzMzMzMzMzMzMzMzQgMzEyLjA3MTQyODU3MTQyODksNTMzLjMzMzMzMzMzMzMzMzQgMzQ0LjA3MTQyODU3MTQyODksNTM3LjkwNDc2MTkwNDc2MTkiIGZpbGw9InJnYmEoMjI3LCAyMjcsIDIyNywgMSkiLz48cG9seWdvbiBwb2ludHM9IjMxMi4wNzE0Mjg1NzE0Mjg5LDk4MC45NTIzODA5NTIzODEgMzEyLjA3MTQyODU3MTQyODksNTM3LjkwNDc2MTkwNDc2MTkgMzQ0LjA3MTQyODU3MTQyODksNTM3LjkwNDc2MTkwNDc2MTkgMzQ0LjA3MTQyODU3MTQyODksOTgwLjk1MjM4MDk1MjM4MSIgZmlsbD0iIzAwMDAwMCIvPjxwb2x5Z29uIHBvaW50cz0iMjQxLjk3NjE5MDQ3NjE5MDgyLDk3MS44MDk1MjM4MDk1MjM5IDI0MS45NzYxOTA0NzYxOTA4Miw2MDkuNTIzODA5NTIzODA5NSAyNzMuOTc2MTkwNDc2MTkwOCw2MTQuMDk1MjM4MDk1MjM4MSAyNzMuOTc2MTkwNDc2MTkwOCw5NzYuMzgwOTUyMzgwOTUyNCIgZmlsbD0idXJsKCcjYmFja2dyb3VuZEdyYWRpZW50JykiLz48cG9seWdvbiBwb2ludHM9IjI3My45NzYxOTA0NzYxOTA4LDYxNC4wOTUyMzgwOTUyMzgxIDI0MS45NzYxOTA0NzYxOTA4Miw2MDkuNTIzODA5NTIzODA5NSAyNzMuOTc2MTkwNDc2MTkwOCw2MDkuNTIzODA5NTIzODA5NSAzMDUuOTc2MTkwNDc2MTkwOCw2MTQuMDk1MjM4MDk1MjM4MSIgZmlsbD0icmdiYSgyMTYsIDIxNiwgMjE2LCAxKSIvPjxwb2x5Z29uIHBvaW50cz0iMjczLjk3NjE5MDQ3NjE5MDgsOTgwLjk1MjM4MDk1MjM4MSAyNzMuOTc2MTkwNDc2MTkwOCw2MTQuMDk1MjM4MDk1MjM4MSAzMDUuOTc2MTkwNDc2MTkwOCw2MTQuMDk1MjM4MDk1MjM4MSAzMDUuOTc2MTkwNDc2MTkwOCw5ODAuOTUyMzgwOTUyMzgxIiBmaWxsPSIjMDAwMDAwIi8+PHBvbHlnb24gcG9pbnRzPSIyMDMuODgwOTUyMzgwOTUyNzIsOTcxLjgwOTUyMzgwOTUyMzkgMjAzLjg4MDk1MjM4MDk1MjcyLDY4NS43MTQyODU3MTQyODU3IDIzNS44ODA5NTIzODA5NTI3Miw2OTAuMjg1NzE0Mjg1NzE0MiAyMzUuODgwOTUyMzgwOTUyNzIsOTc2LjM4MDk1MjM4MDk1MjQiIGZpbGw9InVybCgnI2JhY2tncm91bmRHcmFkaWVudCcpIi8+PHBvbHlnb24gcG9pbnRzPSIyMzUuODgwOTUyMzgwOTUyNzIsNjkwLjI4NTcxNDI4NTcxNDIgMjAzLjg4MDk1MjM4MDk1MjcyLDY4NS43MTQyODU3MTQyODU3IDIzNS44ODA5NTIzODA5NTI3Miw2ODUuNzE0Mjg1NzE0Mjg1NyAyNjcuODgwOTUyMzgwOTUyNzUsNjkwLjI4NTcxNDI4NTcxNDIiIGZpbGw9InJnYmEoMjA5LCAyMDksIDIwOSwgMSkiLz48cG9seWdvbiBwb2ludHM9IjIzNS44ODA5NTIzODA5NTI3Miw5ODAuOTUyMzgwOTUyMzgxIDIzNS44ODA5NTIzODA5NTI3Miw2OTAuMjg1NzE0Mjg1NzE0MiAyNjcuODgwOTUyMzgwOTUyNzUsNjkwLjI4NTcxNDI4NTcxNDIgMjY3Ljg4MDk1MjM4MDk1Mjc1LDk4MC45NTIzODA5NTIzODEiIGZpbGw9IiMwMDAwMDAiLz48cG9seWdvbiBwb2ludHM9IjE2NS43ODU3MTQyODU3MTQ2Miw5NzEuODA5NTIzODA5NTIzOSAxNjUuNzg1NzE0Mjg1NzE0NjIsNTcxLjQyODU3MTQyODU3MTQgMTk3Ljc4NTcxNDI4NTcxNDYyLDU3NiAxOTcuNzg1NzE0Mjg1NzE0NjIsOTc2LjM4MDk1MjM4MDk1MjQiIGZpbGw9InVybCgnI2JhY2tncm91bmRHcmFkaWVudCcpIi8+PHBvbHlnb24gcG9pbnRzPSIxOTcuNzg1NzE0Mjg1NzE0NjIsNTc2IDE2NS43ODU3MTQyODU3MTQ2Miw1NzEuNDI4NTcxNDI4NTcxNCAxOTcuNzg1NzE0Mjg1NzE0NjIsNTcxLjQyODU3MTQyODU3MTQgMjI5Ljc4NTcxNDI4NTcxNDYyLDU3NiIgZmlsbD0icmdiYSgyMTksIDIxOSwgMjE5LCAxKSIvPjxwb2x5Z29uIHBvaW50cz0iMTk3Ljc4NTcxNDI4NTcxNDYyLDk4MC45NTIzODA5NTIzODEgMTk3Ljc4NTcxNDI4NTcxNDYyLDU3NiAyMjkuNzg1NzE0Mjg1NzE0NjIsNTc2IDIyOS43ODU3MTQyODU3MTQ2Miw5ODAuOTUyMzgwOTUyMzgxIiBmaWxsPSIjMDAwMDAwIi8+PHBvbHlnb24gcG9pbnRzPSIxMjcuNjkwNDc2MTkwNDc2NTIsOTcxLjgwOTUyMzgwOTUyMzkgMTI3LjY5MDQ3NjE5MDQ3NjUyLDUzMy4zMzMzMzMzMzMzMzM0IDE1OS42OTA0NzYxOTA0NzY1Miw1MzcuOTA0NzYxOTA0NzYxOSAxNTkuNjkwNDc2MTkwNDc2NTIsOTc2LjM4MDk1MjM4MDk1MjQiIGZpbGw9InVybCgnI2JhY2tncm91bmRHcmFkaWVudCcpIi8+PHBvbHlnb24gcG9pbnRzPSIxNTkuNjkwNDc2MTkwNDc2NTIsNTM3LjkwNDc2MTkwNDc2MTkgMTI3LjY5MDQ3NjE5MDQ3NjUyLDUzMy4zMzMzMzMzMzMzMzM0IDE1OS42OTA0NzYxOTA0NzY1Miw1MzMuMzMzMzMzMzMzMzMzNCAxOTEuNjkwNDc2MTkwNDc2NTIsNTM3LjkwNDc2MTkwNDc2MTkiIGZpbGw9InJnYmEoMjI3LCAyMjcsIDIyNywgMSkiLz48cG9seWdvbiBwb2ludHM9IjE1OS42OTA0NzYxOTA0NzY1Miw5ODAuOTUyMzgwOTUyMzgxIDE1OS42OTA0NzYxOTA0NzY1Miw1MzcuOTA0NzYxOTA0NzYxOSAxOTEuNjkwNDc2MTkwNDc2NTIsNTM3LjkwNDc2MTkwNDc2MTkgMTkxLjY5MDQ3NjE5MDQ3NjUyLDk4MC45NTIzODA5NTIzODEiIGZpbGw9IiMwMDAwMDAiLz48cG9seWdvbiBwb2ludHM9Ijg5LjU5NTIzODA5NTIzODQxLDk3MS44MDk1MjM4MDk1MjM5IDg5LjU5NTIzODA5NTIzODQxLDQ5NS4yMzgwOTUyMzgwOTUyNCAxMjEuNTk1MjM4MDk1MjM4NDEsNDk5LjgwOTUyMzgwOTUyMzggMTIxLjU5NTIzODA5NTIzODQxLDk3Ni4zODA5NTIzODA5NTI0IiBmaWxsPSJ1cmwoJyNiYWNrZ3JvdW5kR3JhZGllbnQnKSIvPjxwb2x5Z29uIHBvaW50cz0iMTIxLjU5NTIzODA5NTIzODQxLDQ5OS44MDk1MjM4MDk1MjM4IDg5LjU5NTIzODA5NTIzODQxLDQ5NS4yMzgwOTUyMzgwOTUyNCAxMjEuNTk1MjM4MDk1MjM4NDEsNDk1LjIzODA5NTIzODA5NTI0IDE1My41OTUyMzgwOTUyMzg0MSw0OTkuODA5NTIzODA5NTIzOCIgZmlsbD0icmdiYSgyMzEsIDIzMSwgMjMxLCAxKSIvPjxwb2x5Z29uIHBvaW50cz0iMTIxLjU5NTIzODA5NTIzODQxLDk4MC45NTIzODA5NTIzODEgMTIxLjU5NTIzODA5NTIzODQxLDQ5OS44MDk1MjM4MDk1MjM4IDE1My41OTUyMzgwOTUyMzg0MSw0OTkuODA5NTIzODA5NTIzOCAxNTMuNTk1MjM4MDk1MjM4NDEsOTgwLjk1MjM4MDk1MjM4MSIgZmlsbD0iIzAwMDAwMCIvPjwvc3ZnPjwvc3ZnPg==",
+  "banner_image": "",
+  "total_supply": "27",
+  "slug": "ethscrapers",
+  "description": "The first generative art collection on Ethscriptions, ethscribed on the Ethereum blockchain.",
+  "website_url": "https://crypt0biwan.github.io/ethscrapers-by-obi/",
+  "twitter_url": "",
+  "discord_url": "",
+  "background_color": "#000000",
+  "collection_items": [
+    {
+      "id": "0x4ae94d01cd81760a704b856f1a8f39e50481569d1aa9bb1daab46dee3c450282",
+      "index": 1,
+      "sha": "c2042ce6bec2cc9c160985becc75212e569b43ca26618e5b8b32067779279bb4",
+      "name": "Ethscrapers #1",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "palette",
+          "value": "zumanad"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "0xa51bd90244c2772c4c9ebebbf2a6f7bfa2a232e959852bdf00c803837569c2c1",
+      "index": 2,
+      "sha": "7759783a5f546d6ca5f73c2c84d1591a2d29978714e2e5ffbfb390c502d34a76",
+      "name": "Ethscrapers #2",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "palette",
+          "value": "atbara"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "id": "0x5af11937cffdac306106f0a4ac8304a215cc3ebdc586ac644a0170bff21dcc4b",
+      "index": 3,
+      "sha": "a28f572955340b6d82e6d2f9e9078f94e1810dbd908b9302e4d110bb183db3d9",
+      "name": "Ethscrapers #3",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "palette",
+          "value": "atbara"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 22
+        }
+      ]
+    },
+    {
+      "id": "0xe9f446196d71aed3fa0386f325c04fd748ad412c1ae594ace4bbd7615dc6a3fa",
+      "index": 4,
+      "sha": "63969effd2fbfccc8c7d6071b9f6c530370a1dc9c825969f445f51f611d07b87",
+      "name": "Ethscrapers #4",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "palette",
+          "value": "atbara"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "id": "0x761065f0c193c6b8278affbcebfd3329f90388d6c20403326139af7134901ace",
+      "index": 5,
+      "sha": "560e8932c733412c635d672373f7c966fdbdcb17e59d237815ea5759cb8a9585",
+      "name": "Ethscrapers #5",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "palette",
+          "value": "mahayag"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 26
+        }
+      ]
+    },
+    {
+      "id": "0xd448f00b773cfd54f69fe39f962a468e2f66839ae7387000f5ae38f49aeb386a",
+      "index": 6,
+      "sha": "15b500444b3fe2197e58e96cc87b402abafc157171cb5a13d30d165a6acd618c",
+      "name": "Ethscrapers #6",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "palette",
+          "value": "ankeny"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "id": "0xd510aebde0218e90f2fe42d86f9e4334cafd4ea38c5b869c3ae96fbb38554084",
+      "index": 7,
+      "sha": "d64980ed4963554701b228bf34c6f6fb9fd1504a9505486d784c3abb1f611cec",
+      "name": "Ethscrapers #7",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "palette",
+          "value": "manouba"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "id": "0xc6f87c15610acf2e537cfd37d2d33c5b9e4c2bbb4efc3bbebcc0018dcb84bf4e",
+      "index": 8,
+      "sha": "342dfa3fd0ef55ac3e99d86eee9628210b76c81b014776fb153421e1a6a238c2",
+      "name": "Ethscrapers #8",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "palette",
+          "value": "kiwira"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 14
+        }
+      ]
+    },
+    {
+      "id": "0x594ba1196a498a709a8a5d54a25727b85d893b749396401bc8b2853790318efb",
+      "index": 9,
+      "sha": "433b2234dc34397e91f18eefef252970a50760c5ce7cf0e03b52c8f8c54e503a",
+      "name": "Ethscrapers #9",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "palette",
+          "value": "kiwira"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 14
+        }
+      ]
+    },
+    {
+      "id": "0x510facec81975cd5a65f15637d68399a173324adb8c241ea2a94d85d8020ed68",
+      "index": 10,
+      "sha": "bdc7ef3382ae056c89b5faaf916adaed0a5ad732d8e7b1f392268cbacefe01fa",
+      "name": "Ethscrapers #10",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "palette",
+          "value": "sirsi"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 31
+        }
+      ]
+    },
+    {
+      "id": "0x0d22ed2b49a6945ddaefb598f519123aac13e370fb180b3b7bfe5fb09d91409f",
+      "index": 11,
+      "sha": "eaab7a81e990ac1c0014e291a65a164f34850b128a51c020c1b8059fbf89a454",
+      "name": "Ethscrapers #11",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "palette",
+          "value": "yamethin"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 31
+        }
+      ]
+    },
+    {
+      "id": "0xa525dd6d0a22641ffae10b88c11d6d1194f44105d0e062d1d6cddb532360efb2",
+      "index": 12,
+      "sha": "611bbb302030c315911feac0ebb10df70767980833c273c34a1766931e63fabf",
+      "name": "Ethscrapers #12",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "palette",
+          "value": "flers"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 16
+        }
+      ]
+    },
+    {
+      "id": "0x8e835adbf881b8dde9bd7c172a557cfbbd3e15d991d5d9214defef306854ff8c",
+      "index": 13,
+      "sha": "3b3137b0c00d0d9f0fd0e8368037dceb3ce5fa253d74122f95d785d2814bf66b",
+      "name": "Ethscrapers #13",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "palette",
+          "value": "mahayag"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 34
+        }
+      ]
+    },
+    {
+      "id": "0x7073cde1009b01972662f0a79176e9dac87e8bb515352e7ffbed8449c70f76f6",
+      "index": 14,
+      "sha": "ed2a5adf19585a2de7753de7e6b856e557336a231e2dd6294b36938dc1f78866",
+      "name": "Ethscrapers #14",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "palette",
+          "value": "mahayag"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 22
+        }
+      ]
+    },
+    {
+      "id": "0x5d112962d941c79cffb89e93f19a683ff5451923eb14b27f8f38ede1a104e30d",
+      "index": 15,
+      "sha": "e8e0a1bd34a98781b613489230e44263f89dd8c4a4ab94ea764003a3b7c308b3",
+      "name": "Ethscrapers #15",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "palette",
+          "value": "cloverly"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 35
+        }
+      ]
+    },
+    {
+      "id": "0x6468d88c23b5017a202b25129b1cb6537398a1cfd99b5c7197764650e92e8c1b",
+      "index": 16,
+      "sha": "c18118c810d55a22bad5608eb76d86447b5944c7c675dbdad461ebc285808b7b",
+      "name": "Ethscrapers #16",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "palette",
+          "value": "atbara"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 30
+        }
+      ]
+    },
+    {
+      "id": "0x78e461d923aad19fa86fe0635b11743f08bf15c73420c368cac0cd86155b612b",
+      "index": 17,
+      "sha": "c764d34fa30441a3ec35cde676f223dd9997b9d190aa98c293968cb95a711f21",
+      "name": "Ethscrapers #17",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "palette",
+          "value": "zumanad"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "id": "0xd43e7ded87e89dbd5b068daf819702ec268301db5347b08cbf2d939adbd3806b",
+      "index": 18,
+      "sha": "f9833762e1c155b069d0eaf1ff5233d687127f89f4a51cd125cf744876e245e6",
+      "name": "Ethscrapers #18",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "palette",
+          "value": "ennigerloh"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "0x484ddd629b6ac04a2105e5b2a6ea31d05f667a4de429baae30b19cc2a2c1ecc2",
+      "index": 19,
+      "sha": "e26c0f36c840e3fb64e5ec9e39bfd7bb4751d3e5d58583432cd71d58be3fcd48",
+      "name": "Ethscrapers #19",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "palette",
+          "value": "mahayag"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 11
+        }
+      ]
+    },
+    {
+      "id": "0x6eac9dcf14da304a61593848a4cfb411fb2ea239cff6414e75074d130a88c240",
+      "index": 20,
+      "sha": "1fbb2bea6e00010945467f5d2ac49ccd044357786031441db294ab7de40d8057",
+      "name": "Ethscrapers #20",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "palette",
+          "value": "atbara"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 36
+        }
+      ]
+    },
+    {
+      "id": "0x680b86dbfc7ecf8202d0c39f779bf3b23beb8f4e9514a956aa29baa68d241254",
+      "index": 21,
+      "sha": "73a36d047f5b84668e8f23a75c99241c7cc61cc2465ea886ba8e8586dc5e15c5",
+      "name": "Ethscrapers #21",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "palette",
+          "value": "manouba"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "id": "0x468a43e4adbddcc27ce449f782ebf39fcd27a46cab81cbbddb332cdf9104b448",
+      "index": 22,
+      "sha": "159c3745b3856fa2351374e680c83ebd4993198dc6ec97a5bae77eed210f7976",
+      "name": "Ethscrapers #22",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "palette",
+          "value": "atbara"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "id": "0x332a1fea9e4b3ca53dc552e7657af6226aebdb54a13ff9ad9fc5ea90a526a777",
+      "index": 23,
+      "sha": "a36bd4bd885f10ed9fa0e62f761f74d7dcd055923fd645fcfe918a7c8e7a1e23",
+      "name": "Ethscrapers #23",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "palette",
+          "value": "flers"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 13
+        }
+      ]
+    },
+    {
+      "id": "0x2e81fa20755f210c74dca8cbe9a733539247d789bd126ac04c07c2fcc63e8134",
+      "index": 24,
+      "sha": "0da3c38827961fe688322ea53497fbd68b9e29ec3d9f83637494c677f090015e",
+      "name": "Ethscrapers #24",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "palette",
+          "value": "atbara"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "id": "0x79e006fe9591290cf05a34464aca9dd49c5ba69459966f8258e6eab27d89d53a",
+      "index": 25,
+      "sha": "170459195aa32a00cf2a73bab07e06b9a045c0529b2abd1ab5f167e72cd006bc",
+      "name": "Ethscrapers #25",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "palette",
+          "value": "cloverly"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 35
+        }
+      ]
+    },
+    {
+      "id": "0x3d330ab2695c17b947025746bcd535b9a63e1e01ea97a966a0e3c7bc2604184a",
+      "index": 26,
+      "sha": "675eed15b8c2d3b2a60aa4be9c3d7b2d126923ad0da7102f5fa0076818cd920b",
+      "name": "Ethscrapers #26",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "palette",
+          "value": "kiwira"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 30
+        }
+      ]
+    },
+    {
+      "id": "0xf9722eebf4832c1b9b0216927b614e102b07d301b4faaac7ebd8adbe33e095b9",
+      "index": 27,
+      "sha": "808d791e5d2ea7f306e438acf8464fcdde106f89eef8f69804c1dff79f371c03",
+      "name": "Ethscrapers #27",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "palette",
+          "value": "zumanad"
+        },
+        {
+          "trait_type": "number_of_ethscrapers",
+          "value": 10
+        }
+      ]
+    }
+  ]
+}
