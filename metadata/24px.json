@@ -1,0 +1,135 @@
+{
+  "name": "24px",
+  "logo_image": "data:image/png;base64,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Uk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAMAUExURQAAAP///xASEg8QEBIjHTdTPRMdFSY7KCErIhIVEi5DLVFpUEFZP0tgRzhJNFp0UyYyIDA8KnaTaG2FYVZpS2d8WnuRbg4UCj5NNElXQF1uT0hWO0VUNUtZPE9dQFRiRgwNCzpFLHmMYVtoSVdoPTM9JHaLV1tpRVNgQHGAWoqZcxUXEkVONmZzUY+ceUpVNpilgICOY2NuR4eUZ6q1jCUqFpOfbxESDjg9J5mjdBMUDxQVEBUWERscFyEiHSgpJBQWC6CpeiMlGBgZExkaFCYnIRcYEaetgri+kxobEx0eFissJFZZNicoHbW4irK1jczPpb7BmqSlb72+jMPElMzNnMPEmBISCkREJxYWDh8fFLOzfCQkGh0dFR4eFiMjGx0dFyYmHx4eGSAgGyQkHxMTERUVEykpJxYWFRgYF1JRK8zKj7WzgdPRmsnHk8C/k8fEjx4dEiYlGbGtdb65gNDMlDQzJi4tInJrMEI+HKCaaMC6friygN7WnTw6LJ6STbSoYC0rHyspHjIxKzo1HiglFiwpGhYVEBgXEhsaFRwbFi4tKBYTBy0oFNfGgBcWEhsaFjAvK5CBSmheOk9DG1RMMiMgFrCUQUw/HCYiFiomGiAdFSYjGqCCOn1rPzEqGR0ZD0A6KxsZFDo4M0E0GBgUCy4nFyIdEjYvHzItIi4qIWNOJVJDJTYtGyQgGDs1KSomHjIuJkZBNygfD/LAaPjIdOO5bSEbEGBPLzszJB0ZEjUuIdGYO8aRO8uYRNeiSjcpEzstFeOtV+q2X+e7dCYfFC8nGikjGR8cFyMgG+GuY+66bzUqGSYeEikhFTEpHceLPFxDItGYTmxRLllPQiQhHXhUKDIkE8aQTdifWMuYW0s6JVVCK0Q2JSIeGZVfI61yMbuFRkUzHz4uHDgqG4RNFDokDZBlOXdUMbSAS2BGK0EwHzImGiwjGkAmD4ZVJ3NIIkctFlE2HaBeJ105G2RAIUo1IzksIUo6LIZXMlY6JG44E3RKLUQ3LoBHIv///4bi36kAAAEAdFJOU////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wBT9wclAAAACXBIWXMAAAsTAAALEwEAmpwYAAADfklEQVQokQXBa0wbdQAA8P/jXr2+22u5Vnot9MEAi8iWbYhMNyaTZU7FZJFIjDqD0ZAYTdw3M3XJEr9t8ZVsTmNcsmUxviKkmkyHQKcZCwqs0JYUS0dhhVIKbble7+HvB+3mHRU4JbZMbwBo16UfQqq8ATgddBhLnEizKgAIqAiXPHlZlQl9ERs4J8O5aL1e2fP54Q77FkM5y66qi4QtdUaJMuaphvY+I/p2kZlVEQlUfhUZbKSddIR8xq6psVzPg3oWEnUAAkDomaqDFHGNEi00YL0T/vL40mN0pQETDOldEDRh8jjBygzntVxcK9gYWwIrOTW+Nd1UfZ21m62lwF+x6V2ZEkQOmbTtnKrzuuLF9PYYiNyTFA9IJk1zGJgUcbf2j9vhr/oUsSD0Xsa75vRSBckA6t3WrJNhHoVUq3RhdGijuuVGG9huxWoBUIcIIaYqpU0twy+w1S0No0qerJVV+VfbkTRevCf6fbcKEGJRwUCVeRNFicc80WceDrRyC1qG4ekzASwgGLLIxTUtfbFYyEmiCkZLTP8swnev3CTaRkH+vVdT5YpIC9bSeu590ZiE32l3gzVlvGUouW0CwOz/6RAVzawEl/GpdkyfDLkRXatKIk3VG2eDc10zSwQ+NTPARhoEScKMCJkddn21/2ZY9xyDr5pzymdhn0lro7nthlEvVX+C+7l1X5xgixLsLF9/pFh2qJQ8OUDGsm92LL5yAxl0LNGnl8jAf7m/s7/wU33cYPQj4o0LMLLSY7uxd5a01G00mk/0U6fB23JL7qUgfPHxieaxF6asq3z3BNi8Lx1z/niQrMZ34Fgk7GiH38yHrLZPQqsFf3PywJ/oMIQok7Xvf2e8Mzxin1Tnd8ObqWzHuyli3AnrLj+JZvde/9gOQ1BLNF967fQ5boWO+fHLQc7EXwk98VTDV38QbZdo+s6zt6Ve0zmMZwbzqQUXRbqePp8A+9gmqv+3QKd7Beo+mBseDn5YW0VYgue/JHkkDqeHRiDWis9/HxkwlBqtpsKDsw5AaOslD895MGzywOBZAAW6KvCYlJU76bW4oXGZgKBr+kwmEIM/HK0o+K3g2oGgwlpLFXzE13e1hOtr5i+ukYX7sdsdxPLvyz0RBh/tLXvbFsgpofvk2kgi4StkuxsXM4MI708c/De1J8p/eiuapr4+HtuxYst8d6rpf6r6fTFrJfk1AAAAAElFTkSuQmCC",
+  "total_supply": 6,
+  "slug": "24px",
+  "description": "Art is just pixels arranged in a pleasing way. Masterpieces crunshed to the resolution of the Crypto Punks, yet still alive",
+  "collection_items": [
+    {
+      "id": "0xf93c9ae954bcfac421de374d390aa57c49a724e9c07cfbd336b7be89d5436f2d",
+      "index": 1,
+      "sha": "c86b2f1102e082fedaca5df0ed624eebaa0b07ba69025a826d13d235ef88f6ee",
+      "name": "Creation of Adam",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "Resolution",
+          "value": "24x53"
+        },
+        {
+          "trait_type": "Artist",
+          "value": "Michelangelo"
+        },
+        {
+          "trait_type": "Year",
+          "value": "1512"
+        }
+      ]
+    },
+    {
+      "id": "0xcfad1acb066bb55ce5f116d67ec5e3daa4b6682b3df4213d2fd9acdc1204d314",
+      "index": 2,
+      "sha": "faa2718113262323da55f848e268e486d44ddc402bb8c75d4a9cc5fe3edb3b56",
+      "name": "The Birth of Venus",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "Resolution",
+          "value": "24x38"
+        },
+        {
+          "trait_type": "Artist",
+          "value": "Sandro Botticelli"
+        },
+        {
+          "trait_type": "Year",
+          "value": "1486"
+        }
+      ]
+    },
+    {
+      "id": "0xa2beb1d42e8ca33131b65426caafff79c58f1ff4706f96774c73afc314cf29ec",
+      "index": 3,
+      "sha": "e6eca0336291744801b460f9fa27fab37274f72a57bfe47a54b4f6edd651df0a",
+      "name": "Starry Night",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "Resolution",
+          "value": "24x30"
+        },
+        {
+          "trait_type": "Artist",
+          "value": "Vincent van Gogh"
+        },
+        {
+          "trait_type": "Year",
+          "value": "1889"
+        }
+      ]
+    },
+    {
+      "id": "0xb23c87f302aaf5da814b21c84783ec42fc9c4e816f1055ded936c9ca5e51fadf",
+      "index": 4,
+      "sha": "78c1ac953a1a169a3edd4161c23a19f19c82b8c11b84eda579b67c0725bf103f",
+      "name": "Mona Lisa",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "Resolution",
+          "value": "24x36"
+        },
+        {
+          "trait_type": "Artist",
+          "value": "Leonardo da Vinci"
+        },
+        {
+          "trait_type": "Year",
+          "value": "1503"
+        }
+      ]
+    },
+    {
+      "id": "0x0be44e34a125a1755a2980a61bee411cc7d20279c5958f69bfb6b4f7671869ad",
+      "index": 5,
+      "sha": "21a47ada2ea055dfb77874cc2bfb13a1f83bc2cfab1f8eba3e7b269502d7f2c2",
+      "name": "Girl with a Pearl Earring",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "Resolution",
+          "value": "24x28"
+        },
+        {
+          "trait_type": "Artist",
+          "value": "Johannes Vermeer"
+        },
+        {
+          "trait_type": "Year",
+          "value": "1665"
+        }
+      ]
+    },
+    {
+      "id": "0x4dfbabb90db81ab19e19462658db740114fa541a854708528299b216c12d974f",
+      "index": 6,
+      "sha": "e0541cd049d8d4d200de0c4c5b51aabe019949acde2a370f3e29f74f5a1cc944",
+      "name": "The Scream",
+      "description": "",
+      "attributes": [
+        {
+          "trait_type": "Resolution",
+          "value": "24x30"
+        },
+        {
+          "trait_type": "Artist",
+          "value": "Edvard Munch"
+        },
+        {
+          "trait_type": "Year",
+          "value": "1893"
+        }
+      ]
+    }
+  ]
+}
