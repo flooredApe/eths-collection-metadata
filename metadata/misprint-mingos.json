@@ -2,10 +2,10 @@
   "name": "Misprint Mingos",
   "logo_image": "esc://ethscriptions/0xf1b03c33b0a0fa393d824e71c006c774e1cbc2265099d636ebc34a97278493b0/data",
   "banner_image": "esc://ethscriptions/0xd8fe14040520c188fb4b4b96c4c3940888611ddaaaa17cd4fdf23da5ce8a1a5c/data",
-  "total_supply": 3751,
+  "total_supply": 3746,
   "slug": "misprint-mingos",
   "symbol": "MISPRINT",
-  "description": "3,728 misprinted flamingos actually on-chain, uncensored and decentralized.",
+  "description": "3,746 misprinted flamingos actually on-chain, uncensored and decentralized.",
   "website_url": "https://nakamingos.io",
   "twitter_url": "https://x.com/nakamingos",
   "discord_url": "https://discord.gg/nAfjvMzyYE",
@@ -156295,7 +156295,7 @@
       "id": "0x90d50676a89e5572527957ca551d54bf34881ec7644f77fe6e9194e66df52b32",
       "index": 3728,
       "sha": "568a4f9cf80292471baff765afcaef35a9d32755ceac91d37e0117d2ed76f57d",
-      "name": "Nakamingo #2602",
+      "name": "Misprint Mingo #2602",
       "description": "A misprinted Mingo",
       "ethscription_number": 5730302,
       "attributes": [
@@ -156349,7 +156349,7 @@
       "id": "0x05ba322029424c3a05de9590a26973dbae05dedc28a1d79933be0c86dc852020",
       "index": 3729,
       "sha": "7953345f42a9ba6b5201f3918528ab04820668e4014c0a13d27f47aaafad77af",
-      "name": "Nakamingo #3729",
+      "name": "Misprint Mingo #3729",
       "description": "A misprinted Mingo",
       "ethscription_number": 5730976,
       "attributes": [
@@ -156407,7 +156407,7 @@
       "id": "0xaad58d2523a313fe149f167a66f727ac18ace325a07ab54f216795057aa18453",
       "index": 3730,
       "sha": "cbace81825a70ac3d62aeff0b6b8ef65329bdf35531f16b032d1800d0cb88b98",
-      "name": "Nakamingo #3730",
+      "name": "Misprint Mingo #3730",
       "description": "A misprinted Mingo",
       "ethscription_number": 5732818,
       "attributes": [
@@ -156456,8 +156456,8 @@
     {
       "id": "0x53fae9fb337f53b02a8f4dcbccd51848a2139a8b09060bc69c19fa165385f3db",
       "index": 3731,
-      "sha": "0xad15bc222399271a86bd24f21d3051ac7ce16efa8523d0c3191ce78ffd550083",
-      "name": "Nakamingo #139",
+      "sha": "ad15bc222399271a86bd24f21d3051ac7ce16efa8523d0c3191ce78ffd550083",
+      "name": "Misprint Mingo #3731",
       "description": "A misprinted Mingo",
       "ethscription_number": 6297982,
       "attributes": [
@@ -156490,8 +156490,8 @@
     {
       "id": "0xc18a45905b47ee28e94e1b99cd15abc534632ea2d613168643bae20b5314e8c7",
       "index": 3732,
-      "sha": "0xa240c35b2e5b191f97b8e1ce08ec6701a050b268bae53ca4a787b28f9ee1af2e",
-      "name": "Nakamingo #140",
+      "sha": "a240c35b2e5b191f97b8e1ce08ec6701a050b268bae53ca4a787b28f9ee1af2e",
+      "name": "Misprint Mingo #3732",
       "description": "A misprinted Mingo",
       "ethscription_number": 6297983,
       "attributes": [
@@ -156528,8 +156528,8 @@
     {
       "id": "0x625254b7241c22b7aec8ef073421ff17a089b616ea75b3d4d324b4ef6d4f7721",
       "index": 3733,
-      "sha": "0xfc2d1e4e3ff3b94614818daf8dbf6cb50fcd164b1f46d454066909116129f6a9",
-      "name": "Nakamingo #141",
+      "sha": "fc2d1e4e3ff3b94614818daf8dbf6cb50fcd164b1f46d454066909116129f6a9",
+      "name": "Misprint Mingo #3733",
       "description": "A misprinted Mingo",
       "ethscription_number": 6297984,
       "attributes": [
@@ -156566,8 +156566,8 @@
     {
       "id": "0x45ae9177855b703d013b5308b261759f26b63b724dd3348f155b98dcb8a266e1",
       "index": 3734,
-      "sha": "0xaa79b30303f9124f83a7a66a19b92bbc85c58636ce71a263c60dba028c52f6d2",
-      "name": "Nakamingo #142",
+      "sha": "aa79b30303f9124f83a7a66a19b92bbc85c58636ce71a263c60dba028c52f6d2",
+      "name": "Misprint Mingo #3734",
       "description": "A misprinted Mingo",
       "ethscription_number": 6297985,
       "attributes": [
@@ -156604,8 +156604,8 @@
     {
       "id": "0xcf703a2b8ab6e54ab8a7e43804eb10eaa290924e031544bfd253590d8542a226",
       "index": 3735,
-      "sha": "0x7c3826b44ae32c083deb664a76aec325274e78eb19491d77e4affdab9c4f7790",
-      "name": "Nakamingo #143",
+      "sha": "7c3826b44ae32c083deb664a76aec325274e78eb19491d77e4affdab9c4f7790",
+      "name": "Misprint Mingo #3735",
       "description": "A misprinted Mingo",
       "ethscription_number": 6297986,
       "attributes": [
@@ -156646,8 +156646,8 @@
     {
       "id": "0xc97b5015e237b51ab7dc9e4bcf1ed6af4c22f79dca7365e03fe276c900fb4555",
       "index": 3736,
-      "sha": "0x836e62a3f585690862742b826aa611ac0ea49d7c1edaee7f1c315328343302fd",
-      "name": "Nakamingo #144",
+      "sha": "836e62a3f585690862742b826aa611ac0ea49d7c1edaee7f1c315328343302fd",
+      "name": "Misprint Mingo #3736",
       "description": "A misprinted Mingo",
       "ethscription_number": 6297987,
       "attributes": [
@@ -156688,8 +156688,8 @@
     {
       "id": "0x41407c92bd1ca5e516a7e301fda7304f8d3c2a63b757ddc4a553294f59652ad1",
       "index": 3737,
-      "sha": "0xcb2e8d10d739c1d7dda5081193ae1a5e1db43ee9c9aa7e97a9935599b9b9f1c6",
-      "name": "Nakamingo #145",
+      "sha": "cb2e8d10d739c1d7dda5081193ae1a5e1db43ee9c9aa7e97a9935599b9b9f1c6",
+      "name": "Misprint Mingo #3737",
       "description": "A misprinted Mingo",
       "ethscription_number": 6297988,
       "attributes": [
@@ -156726,8 +156726,8 @@
     {
       "id": "0xe05b3941cefa17e20e19c02435c4c30fa555e251caea6b6e38b1e89f4d6ab75a",
       "index": 3738,
-      "sha": "0x064133b9dbbb126146ece57b2919ab9cde695eec8667b7e2e963ffab4f62af53",
-      "name": "Nakamingo #146",
+      "sha": "064133b9dbbb126146ece57b2919ab9cde695eec8667b7e2e963ffab4f62af53",
+      "name": "Misprint Mingo #3738",
       "description": "A misprinted Mingo",
       "ethscription_number": 6297989,
       "attributes": [
@@ -156764,8 +156764,8 @@
     {
       "id": "0x3ed57a2374eaf1a124fe708a2213ca2a80810c66b7bc290e413088025f6ab1a7",
       "index": 3739,
-      "sha": "0x80d6d00660653f6e1197e417dd16885250ea94fd1805ce5b1a55c93357292c40",
-      "name": "Nakamingo #147",
+      "sha": "80d6d00660653f6e1197e417dd16885250ea94fd1805ce5b1a55c93357292c40",
+      "name": "Misprint Mingo #3739",
       "description": "A misprinted Mingo",
       "ethscription_number": 6297990,
       "attributes": [
@@ -156802,8 +156802,8 @@
     {
       "id": "0xc63b2d01f1595c6f64658f3960e84f44843c4dd1f5422a788e3406fcf4c827da",
       "index": 3740,
-      "sha": "0xdd653918cc95adf9ce7375aacfdfccf22ba023960b593141a7091e96eb0b3507",
-      "name": "Nakamingo #148",
+      "sha": "dd653918cc95adf9ce7375aacfdfccf22ba023960b593141a7091e96eb0b3507",
+      "name": "Misprint Mingo #3740",
       "description": "A misprinted Mingo",
       "ethscription_number": 6297991,
       "attributes": [
@@ -156840,8 +156840,8 @@
     {
       "id": "0x2a8c744025aef7a22434dfb5cc13a48d3f1adc538b1537e5e61bb29d367235eb",
       "index": 3741,
-      "sha": "0xa8cf342da37b7bb14aeba21559b6faf16dcd7d0f2f357c123a642dd9ac684ffb",
-      "name": "Nakamingo #149",
+      "sha": "a8cf342da37b7bb14aeba21559b6faf16dcd7d0f2f357c123a642dd9ac684ffb",
+      "name": "Misprint Mingo #3741",
       "description": "A misprinted Mingo",
       "ethscription_number": 6297992,
       "attributes": [
@@ -156878,8 +156878,8 @@
     {
       "id": "0x35c1f11621ead08ee4213d2674c233b6facb4a46e362628f7049f4d7a5ddab96",
       "index": 3742,
-      "sha": "0x397e8c76d10125e90fcc426bff3bcec33ab6be01322428f27fc806f352686361",
-      "name": "Nakamingo #150",
+      "sha": "397e8c76d10125e90fcc426bff3bcec33ab6be01322428f27fc806f352686361",
+      "name": "Misprint Mingo #3742",
       "description": "A misprinted Mingo",
       "ethscription_number": 6297993,
       "attributes": [
@@ -156920,8 +156920,8 @@
     {
       "id": "0x1eff9a105580e8eef591c973ceb4fb51b98926a7e1d4bd67aa36018369a68fb4",
       "index": 3743,
-      "sha": "0x9a1a8c51fb6f2929ca81d8883ae25b94ea6f6a3042c3908a5dfacf5438d237c0",
-      "name": "Nakamingo #151",
+      "sha": "9a1a8c51fb6f2929ca81d8883ae25b94ea6f6a3042c3908a5dfacf5438d237c0",
+      "name": "Misprint Mingo #3743",
       "description": "A misprinted Mingo",
       "ethscription_number": 6297994,
       "attributes": [
@@ -156962,8 +156962,8 @@
     {
       "id": "0x2279dfd2133e101f2422e77f358115e3c22ed97aea1b35e4a86936c668377b76",
       "index": 3744,
-      "sha": "0xa55912282e76319255d6b1483219b6126390bb55f7b123bd0578c9280a5a3602",
-      "name": "Nakamingo #152",
+      "sha": "a55912282e76319255d6b1483219b6126390bb55f7b123bd0578c9280a5a3602",
+      "name": "Misprint Mingo #3744",
       "description": "A misprinted Mingo",
       "ethscription_number": 6297995,
       "attributes": [
@@ -156996,8 +156996,8 @@
     {
       "id": "0x6c1476e762798125eef010d592cda3c1ead6aca8148a6d38e95a19a73a6aad12",
       "index": 3745,
-      "sha": "0x88dc1aba2bf2f1c4fdb49b8fa673a82bf07f6f6603b8afdd03566b446682e64f",
-      "name": "Nakamingo #153",
+      "sha": "88dc1aba2bf2f1c4fdb49b8fa673a82bf07f6f6603b8afdd03566b446682e64f",
+      "name": "Misprint Mingo #3745",
       "description": "A misprinted Mingo",
       "ethscription_number": 6297996,
       "attributes": [
